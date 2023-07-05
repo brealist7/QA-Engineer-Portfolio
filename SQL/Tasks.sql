@@ -90,7 +90,7 @@ SELECT * FROM classes;
 SELECT * FROM students;
 SELECT * FROM teachers;
 
-/* select*/
+/* select */
 SELECT * FROM universities;
 SELECT firstName, lastName FROM students;
 SELECT * FROM teachers WHERE firstName = "Oleg";
