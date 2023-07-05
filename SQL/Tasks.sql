@@ -97,7 +97,7 @@ SELECT * FROM teachers WHERE firstName = "Oleg";
 SELECT * FROM classes WHERE nameOfClass > 300;
 SELECT * FROM universities WHERE nameOfUniversity LIKE "%U%"; 
 
-/* homework aggreagte functions */
+/* aggreagte functions */
 SELECT COUNT(*) FROM universities;
 SELECT COUNT(nameOfUniversity) FROM universities;
 SELECT COUNT(nameOfUniversity) FROM universities WHERE nameOfUniversity LIKE "K%";
